@@ -1,0 +1,102 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+
+}
+body{
+    background-color: #0c2d48;
+    height:240vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume_build{
+    height:200vh;
+    width:80vw;
+    background-color: #2e8bc0;
+    border-radius: 10px;
+}
+.input-feild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 2.5rem;
+    width: 623px;
+    margin: 0.2rem;
+    border: 1px solid #0c2d48;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+textarea{
+    height: 2.5rem;
+    width: 623px;
+    margin: 0.2rem;
+    border: 1px solid #0c2d48;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin: 0.8rem;
+}
+.btn button{
+    height: 2.5rem;
+    width: 9rem;
+    background-color: #0c2d48;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: white;
+    margin: 0.4rem;
+}
+.btn button:hover{
+    background-color: #2e8bc0;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b1d4e0;
+    flex-direction: column;
+    height: 8rem;
+  
+}
+#size1{
+    font-size: 2rem;
+}
+
+#size2{
+    font-size: 1.5rem;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     width: 50vw;
+}

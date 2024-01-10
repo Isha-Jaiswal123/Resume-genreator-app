@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume builder app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="resume_build">
+        <form class="input-feild">
+            <h1>Resume Genreator</h1>
+            <input type="text"name="name"placeholder=" name">
+           <input type="text" name="title" placeholder="Title eg web devloper">
+           <textarea name="workex"placeholder="work experience"></textarea>
+           <textarea name="acedmic"id="editor2" placeholder="academic details"></textarea>
+           <textarea name="objective" placeholder="objective"></textarea>
+            <textarea name="skills"id="editor3" placeholder="skills"></textarea>
+            <textarea name="projects"id="editor"placeholder="projects"></textarea>
+            <textarea name="achievements" placeholder="achievements"></textarea>
+            <textarea name="contact"id="editor6" placeholder="contact"></textarea>
+            
+        </form>
+        <div class="output">
+            
+        </div>
+        <div class="btn">
+            <button onclick="toggle()">Preview or edit</button>
+        </div>
+       </div>
+       <script src="https://cdn.ckeditor.com/ckeditor5/40.2.0/classic/ckeditor.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
